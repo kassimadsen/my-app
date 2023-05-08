@@ -1,4 +1,5 @@
-import Expenses from "./components/Expenses";
+import React from "react";
+import Expenses from "./components/Expenses/Expenses";
 // root component
 function App() {
   // How you would do it in javascript: (imperative way)
