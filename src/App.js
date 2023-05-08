@@ -1,7 +1,8 @@
 import React from "react";
 import Expenses from "./components/Expenses/Expenses";
 // root component
-function App() {
+// function App (used to be belowe)
+const App = () => {
   // How you would do it in javascript: (imperative way)
   // const para = document.createElement('p');
   // para.textContent = 'This is visible!';
@@ -41,6 +42,6 @@ function App() {
       <Expenses items={expenses} />
     </div>
   );
-}
+};
 
 export default App;
